@@ -1,0 +1,106 @@
+.auth-back {
+  background-color: rgba(0, 0, 0, 0.313);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  backdrop-filter: blur(1px);
+}
+.auth-container {
+  position: absolute;
+  min-width: 400px;
+  max-width: 90%;
+  min-height: 200px;
+  max-height: 90vh;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.auth-close {
+  border: none;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: 100%;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  font-size: x-large;
+}
+.auth {
+  overflow: auto;
+  background-color: white;
+  height: 528px;
+  max-width: 750px;
+  min-width: 650px;
+  max-height: 90vh;
+  display: flex;
+}
+.auth-banner {
+  background-image: url(../Images/loginpagebanner.png);
+  background-position: center 85%;
+  background-repeat: no-repeat;
+  background-color: #2874f0;
+  width: 40%;
+  color: white;
+  height: 528px;
+}
+
+.auth-content {
+  padding: 30px;
+}
+.auth-content span {
+  font-size: 28px;
+  font-weight: 500;
+}
+.auth-container p {
+  font-size: 18px;
+  margin-top: 16px;
+  line-height: 150%;
+  color: #dbdbdb;
+}
+.auth-fields {
+  padding: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button {
+  width: 90%;
+}
+.login-or {
+  margin: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.login-or hr {
+  width: 20%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.login-controls{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.auth-bottom{
+    margin-top: auto;
+}
+.auth-profile{
+    padding: 20px;
+}
+.auth-bottom span{
+    color: #2874f0;
+    cursor: pointer;
+    
+}
+.auth-bottom span:hover{
+    text-decoration: underline;
+}
