@@ -1,0 +1,36 @@
+@font-face {
+  font-family: LogoFont;
+  src: url(../Fonts/KaushanScript-Regular.ttf);
+}
+@font-face {
+  font-family: SloganFont;
+  src: url(../Fonts/Questrial-Regular.ttf);
+}
+
+.logo {
+  width: fit-content;
+}
+.logo img {
+  height: 40px;
+}
+.logo-flex {
+  display: flex;
+  font-family: "LogoFont";
+  font-size: x-large;
+  color: white;
+}
+.slogan {
+  display: block;
+  margin-left: 5px;
+  font-family: "SloganFont";
+  font-size: small;
+  transform: translateY(-5px);
+  color: rgb(255, 243, 174);
+}
+
+header {
+  background-color: #2874f0;
+}
+a {
+  color: #b9a5ff;
+}
