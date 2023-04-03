@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background: rgb(4, 1, 52);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: rgb(253, 253, 253);
+}
+.policy{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.logo{
+    padding-top: 10px;
+}
+.Termsofuse{
+    width: 450px;
+    padding-bottom: 10px;
+    padding-left: 140px;
+    cursor: pointer;
+}
+.PrivacyPolicy{
+    padding-right: 50px;
+    cursor: pointer;
+}
+.copyright{
+    text-align: center;
+}
+.copyright h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
