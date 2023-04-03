@@ -9,6 +9,7 @@
 
 .logo {
   width: fit-content;
+  padding-left: 30px;
 }
 .logo img {
   height: 40px;
@@ -30,6 +31,8 @@
 
 header {
   background-color: #2874f0;
+  height: 50px;
+  display:flex;
 }
 a {
   color: #b9a5ff;
